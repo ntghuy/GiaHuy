@@ -1,0 +1,11 @@
+.pTtl.itm {display:none!important}
+#container{width:calc(100% - 20px);margin:10px}
+#container::-webkit-scrollbar{height:8px}
+#container::-webkit-scrollbar-thumb{background:#5f6d90}	
+.flex{display:flex}
+p input{float:left}
+code{background:#666;color:#fff;padding:5px}
+.rlt {position:relative}
+label, code, #theme-selector{display:none}
+
+.disJs{display:flex;justify-content:flex-end;align-items:flex-end;position:fixed;top:20px;left:0;right:0;z-index:99;max-width:640px;border-radius:5px;margin:auto;padding:15px 10px;background:#ffdfdf;font-size:14px;font-weight:bold;color:#000;box-shadow:0 10px 20px -10px rgba(0,0,0,.1);} .disJs::before{content:attr(data-text);padding:5px 10px;flex-grow:1} .disJs label{flex-shrink:0;padding:5px 10px} .disJs label::after{content:'\2715';line-height:18px} .disJsI:checked ~ .disJs{display:none} @media screen and (max-width:640px){.disJs{top:0;border-radius:0}}
